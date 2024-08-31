@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.4rem;
+}
+.card-wrapper {
+  padding-bottom: 100px;
+  min-height: 100vh;
+  background-color: hsl(275, 100%, 90%);
+}
+.card-wrapper > img {
+  width: 100vw;
+}
+.card-faq {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  margin-top: -200px;
+  position: relative;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+  display: flex;
+  gap: 1rem;
+}
+
+.qs {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+  color: hsl(292, 42%, 14%)
+}
+
+.box {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.open {
+  max-height: 150px;
+}
+
+.active-color{
+  color: hsl(281, 83%, 54%);
+}
